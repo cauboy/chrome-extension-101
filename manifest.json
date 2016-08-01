@@ -1,0 +1,6 @@
+{
+  "manifest_version": 2,
+
+  "name": "My first Chrome Extension",
+  "version": "1.0"
+}
