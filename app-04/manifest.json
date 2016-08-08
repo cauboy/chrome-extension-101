@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "My Very FirstExtension",
+  "version": "0.2.0",
+
+  "description": "That's a pretty lovely extension. So useful.",
+  "icons": {
+    "48": "icon-heart.png"
+  },
+
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "38": "icon-heart.png"
+    },
+    "default_title": "My Lovely Extension",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "system.cpu"
+  ]
+
+}
